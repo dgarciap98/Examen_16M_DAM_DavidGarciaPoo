@@ -13,6 +13,7 @@ public class principal {
 		System.out.println("Introduce un número para averiguar si es primo o no: ");
 		
 		numero = Integer.parseInt(entrada.nextLine());
+		
 
 	}
 
