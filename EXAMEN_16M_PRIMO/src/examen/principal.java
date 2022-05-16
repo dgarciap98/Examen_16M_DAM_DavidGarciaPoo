@@ -17,9 +17,8 @@ public class principal {
 				
 		for(int i = 1; i<numero; i++) {
 			if(numero%i == 0 && i!=1 && i!=numero) {
-				System.out.println("El numero no es primo");
 				primo = false;
-				break;
+				System.out.println((numero/i) + " es divisor de " + numero);
 			} else {
 				primo = true;
 				
